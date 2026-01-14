@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Hussain Memon| Creative Portfolio</title>
+    <!-- SEO -->
+    <meta name="description"
+        content="Muhammad Hussain Memon's portfolio showcasing HTML & CSS projects, responsive web design, and front-end development skills.">
+    <meta name="keywords"
+        content="Muhammad Hussain Memon, portfolio, HTML, CSS, front-end development, responsive design, web development, projects">
+    <meta name="author" content="Muhammad Hussain Memon">
+    <!-- Load JavaScript -->
+    <script defer src="./files/app.js"></script>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Load Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="ring">
+                <span id="progress">0%</span>
+            </div>
+            <h1>MHM<span>.</span>Dev</h1>
+            <p>Preparing experience...</p>
+        </div>
+    </div>
+
+
+
+    <!-- Header & Navigation -->
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50">
+        <div class="header-glass">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+
+                <!-- Logo -->
+                <a href="#home" class="logo">
+                    MHM<span>.</span>Dev
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- CTA -->
+                <a href="#contact" class="hidden md:inline-block header-btn">
+                    Hire Me
+                </a>
+
+                <!-- Mobile Button -->
+                <button id="menu-btn" class="md:hidden mobile-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact" class="mobile-cta">Hire Me</a>
+        </div>
+    </header>
+
+
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- 1. Hero Section -->
+        <section id="home" class="py-24 md:py-36 text-center">
+            <div class="home-content">
+                <div class="w-content">
+                    <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
+                        Hi, I'm <br><span class="text-[#58a6ff]">Muhammad Hussain</span>
+                        MEMON.
+                    </h1>
+                    <p class="max-w-3xl mx-auto text-lg sm:text-xl text-[#8b949e] mb-10">
+                        HTML & CSS developer focused on building clean, responsive, and user-friendly websites.
+                        <span></span>
+                    </p>
+                    <p class="max-w-3xl mx-auto text-lg sm:text-xl text-[#8b949e] mb-10">
+                        <span id="typing-text" class="text-white border-r-2 border-[#58a6ff] pr-1"></span>
+                    </p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#projects"
+                            class="bg-[#58a6ff] hover:bg-[#448cff] text-white font-semibold py-3 px-8 rounded-xl shadow-lg shadow-[#58a6ff]/40 transition duration-300 ease-in-out transform hover:scale-[1.02]">
+                            View My Work
+                        </a>
+                        <a href="#contact"
+                            class="bg-transparent border border-[#30363d] hover:border-[#58a6ff] text-[#58a6ff] hover:text-white hover:bg-[#58a6ff] font-semibold py-3 px-8 rounded-xl transition duration-300 ease-in-out">
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+                <div class="my-img">
+                    <img src="./images/my profile.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Horizontal Rule Separator -->
+        <div class="h-[1px] bg-[#30363d] mb-16"></div>
+
+        <!-- 2. Projects Section -->
+        <section id="projects" class="py-16">
+            <h2 class="text-4xl font-bold text-white mb-12 text-center">Featured Projects</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Project Card 1 -->
+                <div
+                    class="bg-gradient-to-b from-[#0d1117] to-[#010409] pt-20 pb-10 p-6 rounded-2xl shadow-xl border border-[#30363d] hover:border-[#58a6ff] transition duration-300 transform hover:scale-[1.02]">
+                    <h3 class="text-2xl font-semibold text-white mb-3">My Portfolio Website</h3>
+                    <p class="text-[#8b949e] mb-4">A personal portfolio showcasing my projects and skills using only
+                        HTML and CSS & JavaScript(js).</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span
+                            class="text-xs font-medium text-[#58a6ff] bg-[#58a6ff]/10 px-3 py-1 rounded-full">HTML</span>
+                        <span class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">CSS</span>
+                        <span
+                            class="text-xs font-medium text-[#58a6ff] bg-[#58a6ff]/10 px-3 py-1 rounded-full">JS</span>
+                    </div>
+                    <a href="#" class="inline-flex items-center text-[#58a6ff] hover:underline font-medium">
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div
+                    class="bg-gradient-to-b from-[#0d1117] to-[#010409] pt-20 pb-10 p-6 rounded-2xl shadow-xl border border-[#30363d] hover:border-[#58a6ff] transition duration-300 transform hover:scale-[1.02]">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Login Page Design</h3>
+                    <p class="text-[#8b949e] mb-4">A modern and responsive login page built with clean layout and
+                        colors.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span
+                            class="text-xs font-medium text-[#58a6ff] bg-[#58a6ff]/10 px-3 py-1 rounded-full">HTML</span>
+                        <span class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">CSS</span>
+                        <!-- <span class="text-xs font-medium text-[#58a6ff] bg-[#58a6ff]/10 px-3 py-1 rounded-full"></span> -->
+                    </div>
+                    <a href="./projects/login page/index.html"
+                        class="inline-flex items-center text-[#58a6ff] hover:underline font-medium">
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div
+                    class="bg-gradient-to-b from-[#0d1117] to-[#010409] pt-20 pb-10 p-6 rounded-2xl shadow-xl border border-[#30363d] hover:border-[#58a6ff] transition duration-300 transform hover:scale-[1.02]">
+                    <h3 class="text-2xl font-semibold text-white mb-3">AI Content Summarizer</h3>
+                    <p class="text-[#8b949e] mb-4">A tool using machine learning models to automatically summarize
+                        long-form articles into key bullet points.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span
+                            class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">Python</span>
+                        <span
+                            class="text-xs font-medium text-[#58a6ff] bg-[#58a6ff]/10 px-3 py-1 rounded-full">TensorFlow</span>
+                        <span
+                            class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">Flask</span>
+                    </div>
+                    <a href="#" class="inline-flex items-center text-[#58a6ff] hover:underline font-medium">
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- Project Card 3 -->
+                <div
+                    class="bg-gradient-to-b from-[#0d1117] to-[#010409] pt-20 pb-10 p-6 rounded-2xl shadow-xl border border-[#30363d] hover:border-[#58a6ff] transition duration-300 transform hover:scale-[1.02]">
+                    <h3 class="text-2xl font-semibold text-white mb-3">E-commerce Homepage</h3>
+                    <p class="text-[#8b949e] mb-4">A simple online store homepage layout with navigation and product
+                        sections.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">HTML</span>
+                        <span
+                            class="text-xs font-medium text-[#58a6ff] bg-[#58a6ff]/10 px-3 py-1 rounded-full">CSS</span>
+                        <span class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">JS</span>
+                    </div>
+                    <a href="./projects/A U R A S T O R E/index.html"
+                        class="inline-flex items-center text-[#58a6ff] hover:underline font-medium">
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- Project Card 3 -->
+                <div
+                    class="bg-gradient-to-b from-[#0d1117] to-[#010409] pt-20 pb-10 p-6 rounded-2xl shadow-xl border border-[#30363d] hover:border-[#58a6ff] transition duration-300 transform hover:scale-[1.02]">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Restaurant Landing Page</h3>
+                    <p class="text-[#8b949e] mb-4">A landing page design for a restaurant including hero section, menu
+                        highlights, and contact information.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">HTML</span>
+                        <span
+                            class="text-xs font-medium text-[#58a6ff] bg-[#58a6ff]/10 px-3 py-1 rounded-full">CSS</span>
+                        <!-- <span class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">Flask</span> -->
+                    </div>
+                    <a href="./projects/resturant landing page/index.html"
+                        class="inline-flex items-center text-[#58a6ff] hover:underline font-medium">
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- Project Card 3 -->
+                <div
+                    class="bg-gradient-to-b from-[#0d1117] to-[#010409] pt-20 pb-10 p-6 rounded-2xl shadow-xl border border-[#30363d] hover:border-[#58a6ff] transition duration-300 transform hover:scale-[1.02]">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Fitness Club Landing Page</h3>
+                    <p class="text-[#8b949e] mb-4">A clean and modern landing page for a fitness club with membership
+                        plans, trainer profiles, and call-to-action buttons.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span
+                            class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">Python</span>
+                        <span
+                            class="text-xs font-medium text-[#58a6ff] bg-[#58a6ff]/10 px-3 py-1 rounded-full">TensorFlow</span>
+                        <span
+                            class="text-xs font-medium text-[#c9d1d9] bg-[#30363d] px-3 py-1 rounded-full">Flask</span>
+                    </div>
+                    <a href="./projects/fitcore gym/index.html"
+                        class="inline-flex items-center text-[#58a6ff] hover:underline font-medium">
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Horizontal Rule Separator -->
+        <div class="h-[1px] bg-[#30363d] mt-16 mb-16"></div>
+
+        <!-- 3. About Section -->
+        <section id="about" class="py-16">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+                <div class="lg:col-span-1">
+                    <h2 class="text-4xl font-bold text-white mb-4 lg:mb-0">About Me</h2>
+                </div>
+                <div class="lg:col-span-2 text-lg text-[#8b949e]">
+                    <p class="mb-6">
+                        I am Muhammad Hussain Memon, a dedicated Software Technology student at Jinnah Polytechnic Institute with a strong foundation in modern web development. My core expertise lies in crafting responsive and interactive user interfaces using HTML, CSS, and JavaScript.
+                    </p>
+                    <p class="mb-6">
+                        I am passionate about turning complex ideas into clean, functional code and consistently strive to improve my technical skill set. Beyond just writing code, I focus on building seamless digital experiences that are both user-friendly and visually appealing.
+                    </p>
+                    <p>
+                        As a forward-thinking developer, I am eager to contribute to innovative projects and collaborate with like-minded professionals in the tech industry. I am currently looking for opportunities to apply my front-end skills to real-world challenges and grow within the software development landscape.
+                    </p>
+                    <div class="dropdown mt-6">
+                        <button id="resumeBtn" class="dropbtn flex items-center gap-2">
+                            Download Documents <i class="fa-solid fa-download"></i>
+                        </button>
+                        <div id="resumeDropdown" class="dropdown-content hidden absolute z-10">
+                            <a href="./documents/My Resume.pdf" download>Resume (CV) <i
+                                    class="fa-solid fa-file ml-2"></i></a>
+                            <a href="./documents/Coursera WORDPRESS.pdf" download>Coursera Certificate <i
+                                    class="fa-solid fa-certificate ml-2"></i></a>
+                            <a href="./documents/java certification .pdf" download>Cisco Certificate <i
+                                    class="fa-solid fa-certificate ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Horizontal Rule Separator -->
+        <div class="h-[1px] bg-[#30363d] mt-16 mb-16"></div>
+
+        <!-- 4. Contact Section -->
+        <section id="contact" class=" py-16 max-w-2xl mx-auto">
+            <h2 class="text-4xl font-bold text-white mb-12 text-center">Get In Touch</h2>
+
+            <div class="contact bg-gradient-to-b from-[#0d1117] to-[#010409] pt-20 pb-10 p-8 rounded-2xl shadow-2xl border border-[#30363d]">
+                <p class="text-[#8b949e] mb-6 text-center">
+                    Have a project in mind or just want to say hello? Send me a message, and I'll get back to you as
+                    soon as possible.
+                </p>
+
+
+                <div class="touch-links">
+                    <a href="mailto:hussainkadir245@gmail.com">
+                    <button type="submit"
+                        class="w-full bg-[#58a6ff] hover:bg-[#448cff] text-white font-semibold py-3 rounded-lg shadow-lg shadow-[#58a6ff]/40 transition duration-300 ease-in-out transform hover:scale-[1.01]">
+                        Send Message Through Email
+                    </button>
+                </a>
+                <a href="https://wa.me/+923099810957">
+                    <button type="submit"
+                        class="w-full bg-[#58a6ff] hover:bg-[#448cff] text-white font-semibold py-3 rounded-lg shadow-lg shadow-[#58a6ff]/40 transition duration-300 ease-in-out transform hover:scale-[1.01]">
+                        Send Message Through WhatsApp
+                    </button>
+                </a>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="mt-24 border-t border-[#30363d] bg-gradient-to-b from-[#0d1117] to-[#010409] pt-20 pb-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Top Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-14 mb-16">
+
+            <!-- Brand -->
+            <div>
+                <a href="#" class="text-3xl font-extrabold tracking-tight text-white">
+                    MHM<span class="text-[#58a6ff]">.</span>Dev
+                </a>
+
+                <p class="mt-5 text-[#8b949e] text-sm leading-relaxed max-w-sm">
+                    Crafting clean, responsive, and user-centric digital experiences with modern web technologies.
+                </p>
+
+                <div class="flex space-x-6 mt-8">
+                    <a href="https://github.com/hussain-afk"
+                        class="group text-[#8b949e] hover:text-[#58a6ff] transition text-xl">
+                        <i class="fa-brands fa-github group-hover:scale-110 transition-transform"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/hussain-kadir-704723315/"
+                        class="group text-[#8b949e] hover:text-[#58a6ff] transition text-xl">
+                        <i class="fa-brands fa-linkedin group-hover:scale-110 transition-transform"></i>
+                    </a>
+
+                    <a href="#"
+                        class="group text-[#8b949e] hover:text-[#58a6ff] transition text-xl">
+                        <i class="fa-brands fa-instagram group-hover:scale-110 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div>
+                <h4 class="text-white font-semibold mb-6 uppercase tracking-widest text-xs">
+                    Navigation
+                </h4>
+                <ul class="space-y-4 text-sm">
+                    <li>
+                        <a href="#home"
+                            class="text-[#8b949e] hover:text-white transition flex items-center gap-2">
+                            <span class="w-1 h-1 rounded-full bg-[#58a6ff]"></span> Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects"
+                            class="text-[#8b949e] hover:text-white transition flex items-center gap-2">
+                            <span class="w-1 h-1 rounded-full bg-[#58a6ff]"></span> Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="text-[#8b949e] hover:text-white transition flex items-center gap-2">
+                            <span class="w-1 h-1 rounded-full bg-[#58a6ff]"></span> About Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Specialization -->
+            <div>
+                <h4 class="text-white font-semibold mb-6 uppercase tracking-widest text-xs">
+                    Specialization
+                </h4>
+                <ul class="space-y-4 text-sm text-[#8b949e]">
+                    <li class="flex items-center gap-3">
+                        <span class="w-2 h-2 rounded-full bg-[#58a6ff]"></span>
+                        Frontend Development
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="w-2 h-2 rounded-full bg-[#58a6ff]"></span>
+                        Responsive Web Design
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="w-2 h-2 rounded-full bg-[#58a6ff]"></span>
+                        UI-Focused Interfaces
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Back to top -->
+            <div class="flex md:justify-end">
+                <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+                    class="group flex items-center gap-3 text-sm font-medium text-[#58a6ff] hover:text-white transition">
+                    Back to top
+                    <span
+                        class="p-2.5 border border-[#30363d] group-hover:border-[#58a6ff] rounded-xl transition group-hover:-translate-y-1">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div
+            class="pt-8 border-t border-[#30363d] flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-xs text-[#8b949e]">
+                © 2025 <span class="text-white">Muhammad Hussain Memon</span>. All rights reserved.
+            </p>
+
+            <!-- <div class="flex gap-8 text-xs text-[#8b949e]">
+                <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition">Terms of Service</a>
+            </div> -->
+        </div>
+
+    </div>
+</footer>
+
+
+
+</body>
+
+</html>

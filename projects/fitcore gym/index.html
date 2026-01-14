@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Black & Red Header</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+ <nav class="navbar navbar-expand-lg navbar-custom py-3">
+    <div class="container">
+        <!-- Logo / Brand -->
+        <a class="navbar-brand text-white" href="#">
+            <span class="brand-text">FITCORE</span> Gym
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#">Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#">Membership</a>
+                </li>
+            </ul>
+
+            <a href="#" id="navbtn" class="btn cta-btn ms-3 px-4">Join Now</a>
+        </div>
+    </div>
+</nav>
+
+<!-- heo section -->
+ <section class="hero-section">
+
+    <!-- Background Video -->
+    <video class="hero-video" autoplay loop muted>
+        <source src="https://videos.pexels.com/video-files/3194417/3194417-uhd_2560_1440_25fps.mp4" type="video/mp4">
+    </video>
+
+    <!-- Dark Overlay -->
+    <div class="hero-overlay"></div>
+
+    <!-- Carousel -->
+    <div id="heroCarousel" class="carousel slide carousel-fade position-absolute w-100 h-100" data-bs-ride="carousel" style="z-index:1;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- HERO CONTENT -->
+    <div class="container text-center hero-content">
+        <h1 class="g-text animated-text fs-1">
+            <span>Transform</span> <span>Your</span> <span>Body</span> <span>Today</span>
+        </h1>
+        <p class="mt-3 text-light">
+            Push your limits with world-class trainers, advanced programs and a fitness environment designed to build champions.
+        </p>
+        <div class="mt-4">
+            <a href="#" class="btn1 btn-red me-3">Join Now</a>
+            <a href="#" class="btn btn-outline-light">View Programs</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="py-5" style="background:#000;">
+    <div class="container text-center">
+
+        <h2 class="section-title mb-4">Our Programs</h2>
+        <p class="text-light mb-5">Choose the perfect program to achieve your fitness goals.</p>
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="fitness-card">
+                    <div class="fitness-icon">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                    </div>
+                    <h3 class="fitness-card-title">Strength Training</h3>
+                    <p class="fitness-text">
+                        Build muscle, increase power, and train like an athlete with our advanced strength workouts.
+                    </p>
+                    <a href="#" class="btn btn-card mt-3">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="fitness-card">
+                    <div class="fitness-icon">
+                        <i class="bi bi-heart-pulse-fill"></i>
+                    </div>
+                    <h3 class="fitness-card-title">Cardio Program</h3>
+                    <p class="fitness-text">
+                        Burn calories fast with high-intensity cardio routines designed to boost endurance.
+                    </p>
+                    <a href="#" class="btn btn-card mt-3">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="fitness-card">
+                    <div class="fitness-icon">
+                        <i class="bi bi-person-arms-up"></i>
+                    </div>
+                    <h3 class="fitness-card-title">Flexibility & Mobility</h3>
+                    <p class="fitness-text">
+                        Improve flexibility, reduce injury risks, and move better with guided mobility sessions.
+                    </p>
+                    <a href="#" class="btn btn-card mt-3">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="contact-title">Contact Us</h2>
+            <p class="text-light">We’re here to help you reach your fitness goals.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Contact Info -->
+            <div class="col-md-4">
+                <div class="contact-box">
+                    <h4 class="mb-3">Get in Touch</h4>
+
+                    <div class="contact-info mb-3">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        123 Fitness Street, Mumbai, India
+                    </div>
+
+                    <div class="contact-info mb-3">
+                        <i class="bi bi-telephone-fill"></i>
+                        +91 9876543210
+                    </div>
+
+                    <div class="contact-info mb-3">
+                        <i class="bi bi-envelope-fill"></i>
+                        support@fitcoregym.com
+                    </div>
+
+                    <div class="contact-info">
+                        <i class="bi bi-clock-fill"></i>
+                        Mon–Sat: 6 AM – 10 PM
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-md-8">
+                <div class="contact-box">
+                    <h4 class="mb-3">Send Us a Message</h4>
+
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="2" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <button class="btn btn-contact">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer-section">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- About -->
+            <div class="col-md-4">
+                <h4 class="footer-title">FitCore Gym</h4>
+                <p>
+                    Transform your body, build confidence, and unlock your true potential with our elite fitness programs and world-class trainers.
+                </p>
+
+                <div class="footer-social mt-3">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h4 class="footer-title">Quick Links</h4>
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">Programs</a>
+                    <a href="#">Trainers</a>
+                    <a href="#">Membership</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-4">
+                <h4 class="footer-title">Contact Info</h4>
+                <p><i class="bi bi-geo-alt-fill text-danger"></i> 123 Fitness Street, Mumbai, India</p>
+                <p><i class="bi bi-telephone-fill text-danger"></i> +91 9876543210</p>
+                <p><i class="bi bi-envelope-fill text-danger"></i> support@fitcoregym.com</p>
+                <p><i class="bi bi-clock-fill text-danger"></i> Mon – Sat: 6 AM – 10 PM</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 FitCore Gym — All Rights Reserved.
+        </div>
+
+    </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
